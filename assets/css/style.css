@@ -1,0 +1,158 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  max-width: 100%;
+  background-image: "assets/images/rpg.jpg";
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-color: grey;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: transparent;
+  height: auto;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #777;
+  margin-top: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1 {
+  margin: 10px;
+  color: black;
+  font-family: Marker-Felt, fantasy;
+  border-width: 2px;
+  border-color: #ccc;
+}
+.sub-header {
+  max-width: 960px;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+#info {
+  max-width: 260px;
+  margin-left: 0;
+}
+.container {
+  max-width: 100%;
+  display: inline;
+  margin: auto;
+  clear: both;
+  flex: 1 0 auto;
+  padding: 20px;
+  }
+
+#legend {
+  font-size: 24pt;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-family: Georgia, serif;
+  text-align: center;
+  border-color: #ccc;
+  color:black;
+}
+h2 {
+  font-family: Georgia, serif;
+  color: #ccc;
+}
+
+#start {
+  font-family: Jazz LET, fantasy; 
+  cursor: pointer; 
+  margin-top: 67px;
+  float: right;
+  font-size: 30pt;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  padding: 10px;
+  margin-right: 40%;
+}
+.crystal {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+}
+#message {
+  display: block;
+  margin: auto;
+  font-size: 300%;
+  color: Red;
+}
+img:hover {
+  -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+footer, .push {
+  height: 30px;
+}
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #645e56;
+  border-top: 8px solid #4aaaa5;
+  flex: 0;
+  padding: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  header {
+    border-style: none;
+  }
+  #legend {
+    border-style: solid;
+    border-color: grey;
+    border-radius: 5%;
+    font-size: 100%
+  }
+  h3 {
+    font-size: 70%;
+  }
+  #message {
+    font-size: 100%
+  }
+  img {
+    max-width: 100%;
+  }
+  .crystal {
+    padding-top: 10%;
+    max-width: 30%;
+    max-height: auto;
+  }
+  #start {
+    display: block;
+    margin: auto;
+    float: none;
+  }
+  #info{
+    font-size: 70%;
+    text-align: center;
+  }
+}
